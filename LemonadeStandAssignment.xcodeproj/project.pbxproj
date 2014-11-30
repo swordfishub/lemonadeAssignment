@@ -7,12 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		492CB17F1A2B8D47009668A5 /* Wheater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492CB17E1A2B8D47009668A5 /* Wheater.swift */; };
+		492CB1891A2B8FA3009668A5 /* cold.png in Resources */ = {isa = PBXBuildFile; fileRef = 492CB1801A2B8FA3009668A5 /* cold.png */; };
+		492CB18A1A2B8FA3009668A5 /* Cold@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 492CB1811A2B8FA3009668A5 /* Cold@2x.png */; };
+		492CB18B1A2B8FA3009668A5 /* Cold@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 492CB1821A2B8FA3009668A5 /* Cold@3x.png */; };
+		492CB18C1A2B8FA3009668A5 /* mild.png in Resources */ = {isa = PBXBuildFile; fileRef = 492CB1831A2B8FA3009668A5 /* mild.png */; };
+		492CB18D1A2B8FA3009668A5 /* Mild@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 492CB1841A2B8FA3009668A5 /* Mild@2x.png */; };
+		492CB18E1A2B8FA3009668A5 /* Mild@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 492CB1851A2B8FA3009668A5 /* Mild@3x.png */; };
+		492CB18F1A2B8FA3009668A5 /* warm.png in Resources */ = {isa = PBXBuildFile; fileRef = 492CB1861A2B8FA3009668A5 /* warm.png */; };
+		492CB1901A2B8FA3009668A5 /* Warm@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 492CB1871A2B8FA3009668A5 /* Warm@2x.png */; };
+		492CB1911A2B8FA3009668A5 /* Warm@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 492CB1881A2B8FA3009668A5 /* Warm@3x.png */; };
 		88AF75621A20C8AF00877AE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF75611A20C8AF00877AE2 /* AppDelegate.swift */; };
 		88AF75641A20C8AF00877AE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF75631A20C8AF00877AE2 /* ViewController.swift */; };
 		88AF75671A20C8AF00877AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88AF75651A20C8AF00877AE2 /* Main.storyboard */; };
 		88AF75691A20C8AF00877AE2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88AF75681A20C8AF00877AE2 /* Images.xcassets */; };
 		88AF756C1A20C8AF00877AE2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88AF756A1A20C8AF00877AE2 /* LaunchScreen.xib */; };
 		88AF75781A20C8AF00877AE2 /* LemonadeStandAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88AF75771A20C8AF00877AE2 /* LemonadeStandAssignmentTests.swift */; };
+		88F48B6E1A21FD6B0025CDC6 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F48B6D1A21FD6B0025CDC6 /* Customer.swift */; };
+		88F48B701A21FE1B0025CDC6 /* Lemonade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F48B6F1A21FE1B0025CDC6 /* Lemonade.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		492CB17E1A2B8D47009668A5 /* Wheater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wheater.swift; sourceTree = "<group>"; };
+		492CB1801A2B8FA3009668A5 /* cold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cold.png; sourceTree = "<group>"; };
+		492CB1811A2B8FA3009668A5 /* Cold@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cold@2x.png"; sourceTree = "<group>"; };
+		492CB1821A2B8FA3009668A5 /* Cold@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cold@3x.png"; sourceTree = "<group>"; };
+		492CB1831A2B8FA3009668A5 /* mild.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mild.png; sourceTree = "<group>"; };
+		492CB1841A2B8FA3009668A5 /* Mild@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mild@2x.png"; sourceTree = "<group>"; };
+		492CB1851A2B8FA3009668A5 /* Mild@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mild@3x.png"; sourceTree = "<group>"; };
+		492CB1861A2B8FA3009668A5 /* warm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warm.png; sourceTree = "<group>"; };
+		492CB1871A2B8FA3009668A5 /* Warm@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Warm@2x.png"; sourceTree = "<group>"; };
+		492CB1881A2B8FA3009668A5 /* Warm@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Warm@3x.png"; sourceTree = "<group>"; };
 		88AF755C1A20C8AF00877AE2 /* LemonadeStandAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LemonadeStandAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AF75601A20C8AF00877AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88AF75611A20C8AF00877AE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +58,8 @@
 		88AF75711A20C8AF00877AE2 /* LemonadeStandAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeStandAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AF75761A20C8AF00877AE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88AF75771A20C8AF00877AE2 /* LemonadeStandAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStandAssignmentTests.swift; sourceTree = "<group>"; };
+		88F48B6D1A21FD6B0025CDC6 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		88F48B6F1A21FE1B0025CDC6 /* Lemonade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lemonade.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +103,13 @@
 			children = (
 				88AF75611A20C8AF00877AE2 /* AppDelegate.swift */,
 				88AF75631A20C8AF00877AE2 /* ViewController.swift */,
+				88F48B6F1A21FE1B0025CDC6 /* Lemonade.swift */,
+				88F48B6D1A21FD6B0025CDC6 /* Customer.swift */,
 				88AF75651A20C8AF00877AE2 /* Main.storyboard */,
 				88AF75681A20C8AF00877AE2 /* Images.xcassets */,
 				88AF756A1A20C8AF00877AE2 /* LaunchScreen.xib */,
 				88AF755F1A20C8AF00877AE2 /* Supporting Files */,
+				492CB17E1A2B8D47009668A5 /* Wheater.swift */,
 			);
 			path = LemonadeStandAssignment;
 			sourceTree = "<group>";
@@ -90,6 +117,15 @@
 		88AF755F1A20C8AF00877AE2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				492CB1801A2B8FA3009668A5 /* cold.png */,
+				492CB1811A2B8FA3009668A5 /* Cold@2x.png */,
+				492CB1821A2B8FA3009668A5 /* Cold@3x.png */,
+				492CB1831A2B8FA3009668A5 /* mild.png */,
+				492CB1841A2B8FA3009668A5 /* Mild@2x.png */,
+				492CB1851A2B8FA3009668A5 /* Mild@3x.png */,
+				492CB1861A2B8FA3009668A5 /* warm.png */,
+				492CB1871A2B8FA3009668A5 /* Warm@2x.png */,
+				492CB1881A2B8FA3009668A5 /* Warm@3x.png */,
 				88AF75601A20C8AF00877AE2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -193,8 +229,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				88AF75671A20C8AF00877AE2 /* Main.storyboard in Resources */,
+				492CB18E1A2B8FA3009668A5 /* Mild@3x.png in Resources */,
+				492CB18A1A2B8FA3009668A5 /* Cold@2x.png in Resources */,
+				492CB18C1A2B8FA3009668A5 /* mild.png in Resources */,
+				492CB1911A2B8FA3009668A5 /* Warm@3x.png in Resources */,
+				492CB1901A2B8FA3009668A5 /* Warm@2x.png in Resources */,
+				492CB1891A2B8FA3009668A5 /* cold.png in Resources */,
 				88AF756C1A20C8AF00877AE2 /* LaunchScreen.xib in Resources */,
+				492CB18F1A2B8FA3009668A5 /* warm.png in Resources */,
 				88AF75691A20C8AF00877AE2 /* Images.xcassets in Resources */,
+				492CB18D1A2B8FA3009668A5 /* Mild@2x.png in Resources */,
+				492CB18B1A2B8FA3009668A5 /* Cold@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +257,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88F48B6E1A21FD6B0025CDC6 /* Customer.swift in Sources */,
 				88AF75641A20C8AF00877AE2 /* ViewController.swift in Sources */,
+				88F48B701A21FE1B0025CDC6 /* Lemonade.swift in Sources */,
 				88AF75621A20C8AF00877AE2 /* AppDelegate.swift in Sources */,
+				492CB17F1A2B8D47009668A5 /* Wheater.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +455,7 @@
 				88AF757D1A20C8AF00877AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		88AF757E1A20C8AF00877AE2 /* Build configuration list for PBXNativeTarget "LemonadeStandAssignmentTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +464,7 @@
 				88AF75801A20C8AF00877AE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
